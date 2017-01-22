@@ -18,17 +18,8 @@
             "version" : "1.0",
             "datetime": "2017-01-20 20:00",
             "include" : false,
-            "tags": ["teleport","secondlife"]
-        },
-        "push2talk":{
-            "name": "Push 2 Talk",
-            "description": "A simple push to talk script",
-            "source" : "http://wlf.io/scripts/push2talk.js",
-            "creator" : "WolfGang",
-            "version" : "1.0",
-            "datetime": "2017-01-20 20:00",
-            "include" : false,
-            "tags": ["voice","toggle","mute","microphone"]
+            "tags": ["teleport","secondlife"],
+            "requires": []
         }
     },
     "meta":{

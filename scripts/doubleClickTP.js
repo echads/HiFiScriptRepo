@@ -27,7 +27,7 @@ function distSquare(posa,posb){
 
 function distLessThan(posa,posb,dist){
     var sq = distSquare(posa,posb);
-    
+
     return (sq < Math.pow(dist,2));
 }
 
@@ -56,7 +56,7 @@ function mouseRelease(event){
 }
 
 function getDistanceToFloor(){
-    
+
     var origin = MyAvatar.position;
     var direction = {x:0,y:-1,z:0};
     var ray = {origin: origin,direction:direction};
@@ -65,7 +65,7 @@ function getDistanceToFloor(){
         return Vec3.distance(origin,entityResult.intersection);
     }
     return 1;
-    
+
 }
 
 function getClickCoords(event){
@@ -90,7 +90,7 @@ function menuItemEvent(menuItem) {
 }
 
 function setup(){
-    
+
     if(Menu.menuExists(MENU_CATEGORY)){
         Menu.addMenuItem({
             menuName: MENU_CATEGORY,

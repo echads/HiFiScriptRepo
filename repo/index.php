@@ -5,4 +5,7 @@ $index = array_search($_SERVER["HTTP_ORIGIN"],$allowed);
 
 if($index !== false)header("Access-Control-Allow-Origin: {$allowed[$index]}", false);
 
-echo file_get_contents("repo.json");
+$file = "repo.json";
+if(isset($_GET["dev"]))$file = "dev.json";
+
+echo file_get_contents($file);
