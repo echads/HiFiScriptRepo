@@ -1,0 +1,41 @@
+{
+    "categories":{
+        "cat1": {
+            "name": "Double Click TP",
+            "description" : "A test category that only contains Double Click Teleport",
+            "packages" : [
+                "dblClickTP"
+            ],
+            "tags": ["teleport","secondlife"]
+        }
+    },
+    "packages":{
+        "dblClickTP":{
+            "name": "Double Click Teleport",
+            "description": "A simple double click teleport with a shortcut to toggle",
+            "source" : "http://wlf.io/scripts/doubleClickTP.js",
+            "creator" : "WolfGang",
+            "version" : "1.0",
+            "datetime": "2017-01-20 20:00",
+            "include" : false,
+            "tags": ["teleport","secondlife"]
+        },
+        "push2talk":{
+            "name": "Push 2 Talk",
+            "description": "A simple push to talk script",
+            "source" : "http://wlf.io/scripts/push2talk.js",
+            "creator" : "WolfGang",
+            "version" : "1.0",
+            "datetime": "2017-01-20 20:00",
+            "include" : false,
+            "tags": ["voice","toggle","mute","microphone"]
+        }
+    },
+    "meta":{
+        "name": "WLF IO",
+        "owner": "WolfGang",
+        "contact": "WolfGang@wlf.io",
+        "url": "http://wlf.io/repo/",
+        "tags": ["sl","wolfgang","secondlife"]
+    }
+}
