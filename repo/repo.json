@@ -13,7 +13,7 @@
         "dblClickTP":{
             "name": "Double Click Teleport",
             "description": "A simple double click teleport with a shortcut to toggle",
-            "source" : "http://wlf.io/scripts/doubleClickTP.js",
+            "source" : "https://echads.github.io/HiFiScriptRepo/scripts/doubleClickTP.js",
             "creator" : "WolfGang",
             "version" : "1.0",
             "datetime": "2017-01-20 20:00",
@@ -26,7 +26,7 @@
         "name": "WLF IO",
         "owner": "WolfGang",
         "contact": "WolfGang@wlf.io",
-        "url": "http://wlf.io/repo/",
+        "url": "https://echads.github.io/HiFiScriptRepo/repo/",
         "tags": ["sl","wolfgang","secondlife"]
     }
 }
